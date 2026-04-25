@@ -1,0 +1,177 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+button {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.h1-navbar-left {
+    color: rgba(54, 54, 206, 0.874);
+}
+
+.navbar-right,
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(54, 54, 206, 0.874);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* Intro Page */
+
+#page-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(54, 54, 206, 0.874);
+    color: white;
+}
+
+.awesome-h1 {
+    font-size: 40px;
+    font-weight: 750;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.awesome-p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+
+}
+
+.row {
+    display: flex;
+}
+
+.intro-text {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.img-wrapper {
+
+}
+
+.intro-img {
+    border-radius: 10px;
+}
+
+/* Page Information */
+
+#page-information {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+
+}
+
+.row {
+
+}
+
+.picture1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Customer Review */
+
+#page-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-style: italic;
+    background-color: rgba(205, 200, 200, 0.42);
+}
+
+/* Call to Action */
+
+#call2-action {
+    display: flex;
+    justify-content: center;
+}
+
+.container-call2-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(38, 32, 169);
+    color: white;
+    border-radius: 30px;
+    width: 800px;
+    height: 125px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.signup-btn,
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    color: white;
+    background-color: rgb(38, 32, 169);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    background-color: rgba(54, 54, 206, 0.874);
+}
+
+.copyright {
+    color: white;
+}
